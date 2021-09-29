@@ -18,7 +18,7 @@ Simple writer of DJARE documents
 =head1 SYNOPSIS
 
   my $writer = JSON::DJARE::Writer->new(
-      djare_version  => '0.0.1', # required
+      djare_version  => '0.0.2', # required
       meta_version   => '0.1.1', # required
 
       meta_from      => 'my-api' # optional
@@ -65,7 +65,7 @@ Options:
 =over 4
 
 =item * C<djare_version> - required. The version of DJARE you want to produce.
-The only possible value for this (at the time of writing) is C<0.0.1>.
+The only possible value for this (at the time of writing) is C<0.0.2>.
 
 =item * C<meta_version> - required. The version number to include in the DJARE
 `meta/version` section. This is a L<SemVer|https://semver.org>.
